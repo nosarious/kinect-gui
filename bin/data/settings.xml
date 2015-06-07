@@ -1,0 +1,10 @@
+<panel>
+	<_draw_pointcloud>1</_draw_pointcloud>
+	<use_step_offset>0</use_step_offset>
+	<_make_triangles>0</_make_triangles>
+	<useMask>1</useMask>
+	<near_threshold>233</near_threshold>
+	<far_threshold>160</far_threshold>
+	<step_value>8</step_value>
+<panel/>
+</panel>
