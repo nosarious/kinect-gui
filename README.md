@@ -11,7 +11,7 @@ In this image you see the grid pattern with a normal offset.
 In this image you see the pattern for the depth cloud with an offset for the step value.
 ![alt tag](https://raw.githubusercontent.com/nosarious/kinect-gui/master/dotsWithOffset.png)
 
-You can see the dot pattern with the offset is more reminiscent of the bayer dot pattern used in 4-color comics, or paintings by Roy Lichtenstein. What I have noticed is that there is less flickering of a Kinect image when using this method. I haven't the foggist idea why.
+You can see the dot pattern with the offset is more reminiscent of the ben-day dot pattern used in 4-color comics, or paintings by Roy Lichtenstein. What I have noticed is that there is less flickering of a Kinect image when using this method. I haven't the foggist idea why.
 
 
 This patterning works very well if one was going to use the opintcloud as a triangular mesh, as done with the ofxDelaunay addon. This addon will take the traditional pointcloud and generate a triangular mesh. With the traditional grid system for the step value, one may get triangles which are awkward in some locations, adding to a potential distraction in the visualization. If you use the step offset, however, you are using points that are already in a less-square grid format, you may get better triangles.
